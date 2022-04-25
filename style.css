@@ -1,0 +1,117 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #00ace6;
+    }
+    
+    li {
+    float: left;
+    border-right: 0px solid #00ace6;
+    }
+    
+    a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:20px;
+    }
+    
+    li a:hover {
+    background-color: #00ace6;
+    }
+    body {
+    background: #99e6ff;
+    }
+    
+    .caption {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    font-weight: bold;
+    color: black;
+    }
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: center;
+width: 100px;
+}
+.qq{
+width:300px;
+}
+    .xxx{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-left: 60px;
+    font-style: italic;
+    }
+    table, th, td {
+      border: 1px solid;
+      padding: 15px;
+      text-align: right;
+      background-color:#e6f9ff
+    }
+    .column {
+      float: left;
+      padding: 10px;
+      height: 400px;
+    }
+    /* Left and right column */
+    .column.side {
+      width:30%;
+    }
+    
+    /* Middle column */
+    .column.middle {
+      width: 20%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    h2{
+        text-align:center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-style: italic;
+      }
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 100px;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+      }
+      /* Side navigation links */
+      .sidenav a {
+        color: white;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+      }
+      /* Change color on hover */
+      .sidenav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      p{
+      text-align:center;
+      }
